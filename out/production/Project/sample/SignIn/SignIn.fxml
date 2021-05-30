@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignIn.SignInController">
+    <children>
+        <ImageView fitHeight="414.0" fitWidth="714.0" layoutX="-7.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Img/Background.PNG" />
+            </image>
+        </ImageView>
+        <Label contentDisplay="CENTER" layoutX="127.0" layoutY="11.0" prefHeight="60.0" prefWidth="455.0" text="Добро пожаловать в нашу игру" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Palatino Linotype Italic" size="33.0" />
+            </font>
+        </Label>
+        <Label layoutX="295.0" layoutY="338.0" prefHeight="66.0" prefWidth="406.0" text="Над проектом работали: Паздерин Никита, Сулима Роман, Гусев Даниил" textFill="#fcf8f8">
+            <font>
+                <Font name="Palatino Linotype Italic" size="12.0" />
+            </font>
+        </Label>
+        <Button fx:id="Enter" layoutX="241.0" layoutY="252.0" mnemonicParsing="false" onAction="#ClickEn" prefHeight="45.0" prefWidth="208.0" text="Войти">
+            <font>
+                <Font name="Palatino Linotype Italic" size="19.0" />
+            </font>
+        </Button>
+        <TextField fx:id="mail" layoutX="237.0" layoutY="99.0" prefHeight="45.0" prefWidth="208.0" promptText="Email" />
+        <PasswordField fx:id="Password" layoutX="237.0" layoutY="173.0" prefHeight="45.0" prefWidth="208.0" promptText="Password" />
+    </children>
+</AnchorPane>

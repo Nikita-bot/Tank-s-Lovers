@@ -1,0 +1,21 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        /*"f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.base.jar",
+        "f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.controls.jar",
+        "f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.fxml.jar",
+        "f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.graphics.jar",
+        "f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.media.jar",
+        "f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.swing.jar",
+        "f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.web.jar",
+        */"f:\\Компиляторы\\Java\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx-swt.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx.base.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx.controls.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx.fxml.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx.graphics.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx.media.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx.swing.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx.web.jar",
+        "/tmp/javafx-sdk-11.0.2/lib/javafx-swt.jar"
+    ]
+}

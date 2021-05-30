@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUp.SignUpController">
+    <children>
+        <ImageView fitHeight="414.0" fitWidth="714.0" layoutX="-7.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Img/Background.PNG" />
+            </image>
+        </ImageView>
+        <Label contentDisplay="CENTER" layoutX="244.0" layoutY="14.0" prefHeight="60.0" prefWidth="195.0" text="Регистрация" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Palatino Linotype Italic" size="33.0" />
+            </font>
+        </Label>
+        <Label layoutX="295.0" layoutY="338.0" prefHeight="66.0" prefWidth="406.0" text="Над проектом работали: Паздерин Никита, Сулима Роман, Гусев Даниил" textFill="#fcf8f8">
+            <font>
+                <Font name="Palatino Linotype Italic" size="12.0" />
+            </font>
+        </Label>
+        <Button fx:id="Register" layoutX="238.0" layoutY="302.0" mnemonicParsing="false" onAction="#ClickReg" prefHeight="36.0" prefWidth="208.0" text="Регистрация">
+            <font>
+                <Font name="Palatino Linotype Italic" size="19.0" />
+            </font>
+        </Button>
+        <TextField fx:id="RegEmail" layoutX="238.0" layoutY="122.0" prefHeight="36.0" prefWidth="208.0" promptText="Email" />
+        <PasswordField fx:id="RegPassword" layoutX="238.0" layoutY="182.0" prefHeight="36.0" prefWidth="208.0" promptText="Password" />
+      <TextField fx:id="NikName" layoutX="238.0" layoutY="242.0" prefHeight="36.0" prefWidth="208.0" promptText="NikName" />
+      <Label fx:id="warning" layoutX="238.0" layoutY="66.0" prefHeight="36.0" prefWidth="208.0" />
+    </children>
+</AnchorPane>
